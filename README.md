@@ -255,7 +255,7 @@ This is an example of how to list things you need to use the software and how to
    - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
    - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
    - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-   - [City Lights Theme](ttps://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-theme)
+   - [City Lights Theme](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-theme)
    - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
    - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
    - [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
