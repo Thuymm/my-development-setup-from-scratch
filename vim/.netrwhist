@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/thuymm/.vim'
+let g:netrw_dirhist_6='/Users/thuymm/projects/sites/local'
+let g:netrw_dirhist_5='/Users/thuymm/projects/sites'
+let g:netrw_dirhist_4='/Users/thuymm/projects'
+let g:netrw_dirhist_3='/Users/thuymm'
+let g:netrw_dirhist_2='/Users/thuymm/.dartServer'
+let g:netrw_dirhist_1='/Users/thuymm'
