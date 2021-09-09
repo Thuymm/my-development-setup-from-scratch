@@ -277,7 +277,7 @@ This is an example of how to list things you need to use the software and how to
    - [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
    - [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
    - [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
-   - [Polacode-2020](ttps://marketplace.visualstudio.com/items?itemName=jeff-hykin.polacode-2019)
+   - [Polacode-2020](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.polacode-2019)
    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
    - [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist)
    - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
