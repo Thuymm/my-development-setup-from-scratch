@@ -1,26 +1,35 @@
-" Don't try to be vi compatible
+" Don't try to be vi compatible 
+" We want the latest Vim settings/options.
 set nocompatible
 filetype off
 
 execute pathogen#infect()
 filetype plugin indent on
-syntax on
-filetype plugin indent on
-set modelines=0
+
+syntax enable
+" Make backspace behave like every other editor.
+set backspace=indent,eol,start
+" The default is \, but a comma is much better.
+let mapleader = ','
+" Let's activate line numbers.
 set number
 set ruler
-set visualbell
-set noerrorbells
+" No damn bells!
+set noerrorbells visualbell t_vb=
+" Automatically write the file when switching buffers.
+set autowriteall
+" Set our desired autocompletion matching.
+set complete=.,w,b,u 
+set modelines=0
 set encoding=utf-8
-set linespace=15
 
 " Whitespace
 set wrap
 set textwidth=79
 set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=8
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set noshiftround
 
@@ -30,16 +39,16 @@ set directory=~/.vim/swap/
 
 " Cursor motion
 set scrolloff=3
-set backspace=indent,eol,start
 set matchpairs+=<:> " use % to jump between pairs
 runtime! macros/matchit.vim
 
 " Move up/down editor lines
 nnoremap j gj
 nnoremap k gk
-
-"Easy escaping to normal model
-imap jj <esc>
+nnoremap gj j
+nnoremap gk k
+" ESC with jj
+inoremap jj <Esc>
 
 " Allow hidden buffers
 set hidden
@@ -48,9 +57,38 @@ set laststatus=2
 set showmode
 set showcmd
 
-" Searching
-nnoremap / /\v
-vnoremap / /\v
+
+
+"---------------Visuals---------------"
+set background=dark
+colorscheme material-theme
+" Use 256 colors. This is useful for Terminal Vim.
+set t_Co=256
+" Set the default font family and size.
+set guifont=Fira\ Code\ Retina:h17
+" We want pretty symbols, when available.
+set macligatures
+" We don't want Gui tabs.
+set guioptions-=e
+"Macvim-specific line-height.
+set linespace=16
+
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+
+"Disable Gui scrollbars.
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+
+" Hide scroll bars in macvim
+set guioptions=
+
+
+
+
+"---------------Search---------------"
 set hlsearch
 set incsearch
 set ignorecase
@@ -58,6 +96,10 @@ set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search
 
+
+
+
+"---------------Mappings---------------"
 " Remap help key.
 inoremap <F1> <ESC>:set invfullscreen<CR>a
 nnoremap <F1> :set invfullscreen<CR>
@@ -83,22 +125,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '⇀'
 let g:NERDTreeDirArrowCollapsible = '⇂'
 
-" Color scheme (terminal)
-set t_Co=256
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
-
-syntax enable
-colorscheme material-theme
-
-" Hide scroll bars in macvim
-set guioptions=
-set guifont=Hack:h13
 
 " map tab nav
 map <C-t><up> :tabr<cr>
@@ -108,4 +137,29 @@ map <C-t><right> :tabn<cr>
 
 " Custom Key Mapped
 " space to fold the code
-nnoremap <space> za 
+nnoremap <space> za
+
+
+
+"-------------Split Management--------------"
+" Make splits default to below...
+set splitbelow
+" And to the right. This feels more natural.
+set splitright
+
+"We'll set simpler mappings to switch between splits.
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-H> <C-W><C-H>
+nmap <C-L> <C-W><C-L>
+
+
+
+
+"-------------Auto-Commands--------------"
+" Automatically source the Vimrc file on save.
+
+augroup autosourcing
+	autocmd!
+	autocmd BufWritePost .vimrc source %
+augroup END
