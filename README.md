@@ -41,6 +41,7 @@ This project is about to save my development setup workspace and config files an
 ### Tools
 
 1. CLI tools
+
    - [Brew](https://brew.sh)
    - [OMZ](https://ohmyz.sh)
    - [Compoer](https://getcomposer.org)
@@ -56,7 +57,9 @@ This project is about to save my development setup workspace and config files an
    - [Flutter](https://flutter.dev)
    - [Trash-cli](https://github.com/andreafrancia/trash-cli)
    - [MacVim](https://macvim-dev.github.io/macvim/)
+
 2. Non Development Setup
+
    - [Alfred](https://www.alfredapp.com) Extra Features - $29 powerpack
    - [Spotify](https://www.spotify.com/us/download/mac/) $9.99/month
    - [1Password](https://1password.com) $2.99/month billed annually
@@ -72,24 +75,34 @@ This project is about to save my development setup workspace and config files an
    - [Zoom](https://zoom.us)
    - [TeamViewer](https://www.teamviewer.com/en-us/)
    - [The Unarchiver](https://theunarchiver.com)
+   - [Krita](https://krita.org/en/)
+
 3. Development Setup
+
    - [Fork](https://git-fork.com) $49.99 or free evaluation
    - [PhpStorm](https://www.jetbrains.com/phpstorm/) first year $89 second year $71 third year on wards $53 or $8.9/month
    - [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate - first year $149 second year $119 third year on wards $89 or $14.9/month
    - [IntelliJ IDEA](https://www.jetbrains.com/idea) Community - Free
    - [Android Studio](https://developer.android.com/studio)
    - [Xcode](https://developer.apple.com/xcode/)
-   - [Sequel Ace](https://apps.apple.com/us/app/sequel-ace/id1518036000?mt=12)
+   - [Navicat Premium 16](https://www.navicat.com/en/products/navicat-premium)
    - [iTerm2](https://iterm2.com)
    - [Chrome](https://www.google.com/chrome/)
+   - [Micorsoft Edge](https://www.microsoft.com/en-us/edge)
    - [Visual Studio Code](https://code.visualstudio.com)
+   - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+
 4. [Setapp](https://setapp.com) $9.99/month or 8.99/month for annual to get following services
+
+   - [iStat Menus](https://bjango.com/mac/istatmenus/) upgrade for $9.99 and buy for $11.99
    - [TablePlus](https://tableplus.com) $69
    - [Paw](https://paw.cloud) $49.99
    - [Better Touch Tool](https://folivora.ai) like Rectangle - $8.5 for two years update and $20.5 for life time
    - [Bartender](https://www.macbartender.com) $15
+
 5. Misc
 
+   - [Navicat Trial Reset](https://gist.github.com/tuxity/32b353f00b38fe41c64434b98fdee077)
    - [Fira Code](https://github.com/tonsky/FiraCode)
    - [vscode-icons](https://github.com/dhanishgajjar/vscode-icons)
 
@@ -151,6 +164,8 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 - Install Valet Plus
+
+  _Try this official [documentation](https://github.com/weprovide/valet-plus/wiki/Installation) first, if that documentation doesn't work try below option depend on your host machine._
 
   Installation on M1 chip/Apple Sillicon
 
@@ -230,7 +245,7 @@ This is an example of how to list things you need to use the software and how to
    alias zshreload="source ~/.zshrc"
    alias hostfile="sudo vim /etc/hosts"
    alias publickey="pbcopy < ~/.ssh/id_rsa.pub"
-
+   alias sshconfig="vim ~/keys/config"
    alias vimconfig="vim ~/.vimrc"
 
    alias o="open ."
@@ -253,24 +268,16 @@ This is an example of how to list things you need to use the software and how to
    - [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
    - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
    - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-   - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-   - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
    - [City Lights Theme](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-theme)
    - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
    - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
    - [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
    - [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
+   - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+   - [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+   - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
    - [JQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
-   - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-   - [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
-   - [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
-   - [Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)
-   - [Laravel Goto Controller](https://marketplace.visualstudio.com/items?itemName=ctf0.laravel-goto-controller)
-   - [Laravel Goto View](https://marketplace.visualstudio.com/items?itemName=ctf0.laravel-goto-view)
-   - [Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
-   - [line-jumper](https://marketplace.visualstudio.com/items?itemName=alekseychaikovsky.line-jumper)
    - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-   - [Livewire Language Support](https://marketplace.visualstudio.com/items?itemName=cierra.livewire-vscode)
    - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
    - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
    - [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
@@ -283,10 +290,16 @@ This is an example of how to list things you need to use the software and how to
    - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
    - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
    - [Quick and Simple Text Selection](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select)
+   - [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+   - [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+   - [Remote - SSH: Editing Configuration File](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+   - [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+   - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
    - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-   - [snippet-creator](https://marketplace.visualstudio.com/items?itemName=nikitaKunevich.snippet-creator)
+   - [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
    - [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
    - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+   - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
    - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
    - [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker)
    - [Yii2 Snippets](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
