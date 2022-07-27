@@ -57,17 +57,25 @@ This project is about to save my development setup workspace and config files an
    - [Flutter](https://flutter.dev)
    - [Trash-cli](https://github.com/andreafrancia/trash-cli)
    - [MacVim](https://macvim-dev.github.io/macvim/)
+   - [nvm](https://github.com/nvm-sh/nvm)
+   - [NodeJS](https://nodejs.org/en/)
 
 2. Non Development Setup
 
+   - [DropZone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12) Pro subscription for $1.99/month
+   - [Alt-Tab](https://alt-tab-macos.netlify.app)
+   - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
+   - [Rectangle](https://rectangleapp.com)
+   - [Appcleaner](https://freemacsoft.net/appcleaner/)
+   - [Shottr](https://shottr.cc)
+   - [Maccy](https://github.com/p0deje/Maccy#usage)
    - [Alfred](https://www.alfredapp.com) Extra Features - $29 powerpack
+   - [Logi Options](https://www.logitech.com/en-us/product/options)
+   - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
    - [Spotify](https://www.spotify.com/us/download/mac/) $9.99/month
    - [1Password](https://1password.com) $2.99/month billed annually
    - [NordVPN](https://nordvpn.com) $11.95/month, $4.92/month 1 year, $3.3/month 2 years or $8.9/month
    - [VLC](https://www.videolan.org/vlc/download-macosx.html)
-   - [Appcleaner](https://freemacsoft.net/appcleaner/)
-   - [Rectangle](https://rectangleapp.com)
-   - [Logi Options](https://www.logitech.com/en-us/product/options)
    - [AirDroid](https://www.airdroid.com)
    - [Telegram](https://telegram.org)
    - [Twitter](https://apps.apple.com/us/app/twitter/id1482454543?mt=12)
@@ -94,6 +102,7 @@ This project is about to save my development setup workspace and config files an
 
 4. [Setapp](https://setapp.com) $9.99/month or 8.99/month for annual to get following services
 
+   - [DropZone](https://aptonic.com) Pro Lifetime for $35 or Pro subscription for $1.99/month
    - [iStat Menus](https://bjango.com/mac/istatmenus/) upgrade for $9.99 and buy for $11.99
    - [TablePlus](https://tableplus.com) $69
    - [Paw](https://paw.cloud) $49.99
@@ -102,7 +111,13 @@ This project is about to save my development setup workspace and config files an
 
 5. Misc
 
-   - [Navicat Trial Reset](https://gist.github.com/tuxity/32b353f00b38fe41c64434b98fdee077)
+   - deploymnet-setup.sh will guide you to setup server deployment from scratch.
+   - idea_settings.zip to import IDE settings for IntelliJ IDEA.
+   - studio_settings.zip to import IDE settings for Android Studio.
+   - pstorm_settings.zip to import IDE settings for PhpStorm.
+   - RectangleConfig.json to import config file for Rectangle App.
+   - Pro.json and Material.json to import config and theme for iTerm2 App.
+   - [Navicat Trial Reset Script](https://gist.github.com/tuxity/32b353f00b38fe41c64434b98fdee077)
    - [Fira Code](https://github.com/tonsky/FiraCode)
    - [vscode-icons](https://github.com/dhanishgajjar/vscode-icons)
 
