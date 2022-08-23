@@ -40,96 +40,117 @@ This project is about to save my development setup workspace and config files an
 
 ### Tools
 
-1. CLI tools
+1.  CLI tools
 
-   - [Brew](https://brew.sh)
-   - [OMZ](https://ohmyz.sh)
-   - [Compoer](https://getcomposer.org)
-   - [Cocoapod](https://cocoapods.org)
-   - [Valet Plus](https://github.com/weprovide/valet-plus)
-     - php
-     - mysql
-     - redis
-     - mailhog
-     - dnsmasq
-     - nginx
-     - xdebug
-   - [Flutter](https://flutter.dev)
-   - [Trash-cli](https://github.com/andreafrancia/trash-cli)
-   - [MacVim](https://macvim-dev.github.io/macvim/)
-   - [nvm](https://github.com/nvm-sh/nvm)
-   - [NodeJS](https://nodejs.org/en/)
+    - [Brew](https://brew.sh)
+    - [OMZ](https://ohmyz.sh)
+    - [Compoer](https://getcomposer.org)
+    - [Cocoapod](https://cocoapods.org)
+    - [Valet Plus](https://github.com/weprovide/valet-plus)
+      - php
+      - mysql
+      - redis
+      - mailhog
+      - dnsmasq
+      - nginx
+      - xdebug
+    - [Flutter](https://flutter.dev)
+    - [Trash-cli](https://github.com/andreafrancia/trash-cli)
+    - [MacVim](https://macvim-dev.github.io/macvim/)
+    - [nvm](https://github.com/nvm-sh/nvm)
+    - [NodeJS](https://nodejs.org/en/)
 
-2. Non Development Setup
+2.  Non Development Setup
 
-   - [DropZone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12) Pro subscription for $1.99/month
-   - [Alt-Tab](https://alt-tab-macos.netlify.app)
-   - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
-   - [Rectangle](https://rectangleapp.com)
-   - [Appcleaner](https://freemacsoft.net/appcleaner/)
-   - [Shottr](https://shottr.cc)
-   - [Maccy](https://github.com/p0deje/Maccy#usage)
-   - [Alfred](https://www.alfredapp.com) Extra Features - $29 powerpack
-   - [Logi Options](https://www.logitech.com/en-us/product/options)
-   - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
-   - [Spotify](https://www.spotify.com/us/download/mac/) $9.99/month
-   - [1Password](https://1password.com) $2.99/month billed annually
-   - [NordVPN](https://nordvpn.com) $11.95/month, $4.92/month 1 year, $3.3/month 2 years or $8.9/month
-   - [VLC](https://www.videolan.org/vlc/download-macosx.html)
-   - [AirDroid](https://www.airdroid.com)
-   - [Telegram](https://telegram.org)
-   - [Twitter](https://apps.apple.com/us/app/twitter/id1482454543?mt=12)
-   - [Steam](https://steamcommunity.com)
-   - [Zoom](https://zoom.us)
-   - [TeamViewer](https://www.teamviewer.com/en-us/)
-   - [The Unarchiver](https://theunarchiver.com)
-   - [Krita](https://krita.org/en/)
+    - [DropZone](https://apps.apple.com/us/app/dropzone-4/id1485052491?mt=12) Pro subscription for $1.99/month
+    - [Alt-Tab](https://alt-tab-macos.netlify.app)
+    - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
+    - [Rectangle](https://rectangleapp.com)
+    - [Appcleaner](https://freemacsoft.net/appcleaner/)
+    - [Shottr](https://shottr.cc)
+    - [Maccy](https://github.com/p0deje/Maccy#usage)
+    - [Alfred](https://www.alfredapp.com) Extra Features - $29 powerpack
+    - [Logi Options](https://www.logitech.com/en-us/product/options)
+    - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
+    - [Spotify](https://www.spotify.com/us/download/mac/) $9.99/month
+    - [1Password](https://1password.com) $2.99/month billed annually
+    - [NordVPN](https://nordvpn.com) $11.95/month, $4.92/month 1 year, $3.3/month 2 years or $8.9/month
+    - [VLC](https://www.videolan.org/vlc/download-macosx.html)
+    - [AirDroid](https://www.airdroid.com)
+    - [Telegram](https://telegram.org)
+    - [Twitter](https://apps.apple.com/us/app/twitter/id1482454543?mt=12)
+    - [Steam](https://steamcommunity.com)
+    - [Zoom](https://zoom.us)
+    - [TeamViewer](https://www.teamviewer.com/en-us/)
+    - [The Unarchiver](https://theunarchiver.com)
+    - [Krita](https://krita.org/en/)
 
-3. Development Setup
+3.  Development Setup
 
-   - [Fork](https://git-fork.com) $49.99 or free evaluation
-   - [PhpStorm](https://www.jetbrains.com/phpstorm/) first year $89 second year $71 third year on wards $53 or $8.9/month
-   - [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate - first year $149 second year $119 third year on wards $89 or $14.9/month
-   - [IntelliJ IDEA](https://www.jetbrains.com/idea) Community - Free
-   - [Android Studio](https://developer.android.com/studio)
-   - [Xcode](https://developer.apple.com/xcode/)
-   - [Navicat Premium 16](https://www.navicat.com/en/products/navicat-premium)
-   - [iTerm2](https://iterm2.com)
-   - [Chrome](https://www.google.com/chrome/)
-   - [Micorsoft Edge](https://www.microsoft.com/en-us/edge)
-   - [Visual Studio Code](https://code.visualstudio.com)
-   - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+    - [Fork](https://git-fork.com) $49.99 or free evaluation
+    - [PhpStorm](https://www.jetbrains.com/phpstorm/) first year $89 second year $71 third year on wards $53 or $8.9/month
+    - [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate - first year $149 second year $119 third year on wards $89 or $14.9/month
+    - [IntelliJ IDEA](https://www.jetbrains.com/idea) Community - Free
+    - [Android Studio](https://developer.android.com/studio)
+    - [Xcode](https://developer.apple.com/xcode/)
+    - [Navicat Premium 16](https://www.navicat.com/en/products/navicat-premium)
+    - [iTerm2](https://iterm2.com)
+    - [Chrome](https://www.google.com/chrome/)
+    - [Micorsoft Edge](https://www.microsoft.com/en-us/edge)
+    - [Visual Studio Code](https://code.visualstudio.com)
+    - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 
-4. [Setapp](https://setapp.com) $9.99/month or 8.99/month for annual to get following services
+4.  [Setapp](https://setapp.com) $9.99/month or 8.99/month for annual to get following services
 
-   - [DropZone](https://aptonic.com) Pro Lifetime for $35 or Pro subscription for $1.99/month
-   - [iStat Menus](https://bjango.com/mac/istatmenus/) upgrade for $9.99 and buy for $11.99
-   - [TablePlus](https://tableplus.com) $69
-   - [Paw](https://paw.cloud) $49.99
-   - [Better Touch Tool](https://folivora.ai) like Rectangle - $8.5 for two years update and $20.5 for life time
-   - [Bartender](https://www.macbartender.com) $15
+    - [DropZone](https://aptonic.com) Pro Lifetime for $35 or Pro subscription for $1.99/month
+    - [iStat Menus](https://bjango.com/mac/istatmenus/) upgrade for $9.99 and buy for $11.99
+    - [TablePlus](https://tableplus.com) $69
+    - [Paw](https://paw.cloud) $49.99
+    - [Better Touch Tool](https://folivora.ai) like Rectangle - $8.5 for two years update and $20.5 for life time
+    - [Bartender](https://www.macbartender.com) $15
 
-5. Misc
+5.  Misc
 
-   - deploymnet-setup.sh will guide you to setup server deployment from scratch.
-   - idea_settings.zip to import IDE settings for IntelliJ IDEA.
-   - studio_settings.zip to import IDE settings for Android Studio.
-   - pstorm_settings.zip to import IDE settings for PhpStorm.
-   - RectangleConfig.json to import config file for Rectangle App.
-   - Pro.json and Material.json to import config and theme for iTerm2 App.
-   - [Navicat Trial Reset Script](https://gist.github.com/tuxity/32b353f00b38fe41c64434b98fdee077)
-   - [Fira Code](https://github.com/tonsky/FiraCode)
-   - [vscode-icons](https://github.com/dhanishgajjar/vscode-icons)
+    - deploymnet-setup.sh will guide you to setup server deployment from scratch.
+    - idea_settings.zip to import IDE settings for IntelliJ IDEA.
+    - studio_settings.zip to import IDE settings for Android Studio.
+    - pstorm_settings.zip to import IDE settings for PhpStorm.
+    - RectangleConfig.json to import config file for Rectangle App.
+    - Pro.json and Material.json to import config and theme for iTerm2 App.
+    - [Navicat Trial Reset Script](https://gist.github.com/tuxity/32b353f00b38fe41c64434b98fdee077)
+    - [Fira Code](https://github.com/tonsky/FiraCode)
+    - [vscode-icons](https://github.com/dhanishgajjar/vscode-icons)
 
-      <img src="images/citylights_option_code.png" width="15%">
-      <img src="images/synthwave_code.png" width="15%">
+       <img src="images/citylights_option_code.png" width="15%">
+       <img src="images/synthwave_code.png" width="15%">
 
-   - [terminal-icons](https://github.com/dhanishgajjar/terminal-icons)
+    - [terminal-icons](https://github.com/dhanishgajjar/terminal-icons)
 
-      <img src="images/citylights_option_terminal.png" width="15%">
-      <img src="images/synthwave_terminal.png" width="15%">
+       <img src="images/citylights_option_terminal.png" width="15%">
+       <img src="images/synthwave_terminal.png" width="15%">
 
-<!-- GETTING STARTED -->
+    - add spacer on dock command
+
+      1. Open your favourite Terminal application.
+      2. Choose Spacer size. You can add a regular spacer or a small spacer. Copy and paste one of the scripts into your Terminal.
+
+         - _For Regular Spacer script:_
+
+           ```sh
+           defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+           ```
+
+         - _For Small spacer script:_
+
+           ```sh
+           defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock
+           ```
+
+      3. Move the spacer(s). Drag and drop the spacer(s) to the desired location on your dock.
+
+      **Note:** You can delete spacers like any other icon on your dock. Drag the icon off your dock to remove it from your dock or right-click and choose **Remove from Dock**.
+
+      <!-- GETTING STARTED -->
 
 ## Getting Started
 
