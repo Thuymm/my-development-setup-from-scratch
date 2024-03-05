@@ -1,4 +1,4 @@
-" Don't try to be vi compatible 
+" Don't try to be vi compatible
 " We want the latest Vim settings/options.
 set nocompatible
 filetype off
@@ -19,7 +19,7 @@ set noerrorbells visualbell t_vb=
 " Automatically write the file when switching buffers.
 set autowriteall
 " Set our desired autocompletion matching.
-set complete=.,w,b,u 
+set complete=.,w,b,u
 set modelines=0
 set encoding=utf-8
 
@@ -67,7 +67,7 @@ set t_Co=256
 " Set the default font family and size.
 set guifont=Fira\ Code\ Retina:h17
 " We want pretty symbols, when available.
-set macligatures
+" set macligatures
 " We don't want Gui tabs.
 set guioptions-=e
 "Macvim-specific line-height.
