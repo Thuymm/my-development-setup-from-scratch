@@ -46,6 +46,10 @@ This project is about to save my development setup workspace and config files an
     - [Cocoapod](https://cocoapods.org)
     - [Herd](https://herd.laravel.com/)
     - [Flutter](https://flutter.dev)
+    - [lazyvim](https://lazyvim.org)
+    - [lazygit](https://github.com/jesseduffield/lazygit)
+    - [ripgrep](https://github.com/BurntSushi/ripgrep)
+    - [fd](https://github.com/sharkdp/fd)
     - [Trash-cli](https://github.com/andreafrancia/trash-cli)
     - [nvm](https://github.com/nvm-sh/nvm)
     - [NodeJS](https://nodejs.org/en/)
@@ -81,6 +85,7 @@ This project is about to save my development setup workspace and config files an
     - [Xcode](https://developer.apple.com/xcode/)
     - [Navicat Premium 16](https://www.navicat.com/en/products/navicat-premium)
     - [iTerm2](https://iterm2.com)
+    - [neovim](https://neovim.io/)
     - [ApiDog](https://apidog.com)
     - [Arc](https://arc.net/)
     - [Chrome](https://www.google.com/chrome)
@@ -102,7 +107,7 @@ This project is about to save my development setup workspace and config files an
       ```
 
     - [Fira Code](https://github.com/tonsky/FiraCode)
-    - [Monospace](https://github.com/githubnext/monaspace)
+    - [Monaspace](https://github.com/githubnext/monaspace)
     - [vscode-icons](https://github.com/dhanishgajjar/vscode-icons)
 
        <img src="images/citylights_option_code.png" width="15%">
@@ -181,6 +186,14 @@ This is an example of how to list things you need to use the software and how to
 
   _For more detail, [Cocoapods](https://cocoapods.org)_
 
+- Install Neovim
+
+  ```sh
+  brew install neovim
+
+  cp -r my-development-setup-from-scratch/nvim ~/.config/nvim
+  ```
+
 ### Installation
 
 - Install Flutter
@@ -207,6 +220,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   brew tap homebrew/cask-fonts
   brew install font-monaspace
+  brew install --cask font-monaspace-nerd-font
   ```
 
 <!-- CONFIGURATION EXAMPLES -->
