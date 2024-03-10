@@ -91,6 +91,7 @@ This project is about to save my development setup workspace and config files an
     - [Chrome](https://www.google.com/chrome)
     - [Micorsoft Edge](https://www.microsoft.com/en-us/edge)
     - [Visual Studio Code](https://code.visualstudio.com)
+    - [Zed](https://zed.dev)
 
 4.  Misc
 
