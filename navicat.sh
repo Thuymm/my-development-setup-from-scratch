@@ -42,10 +42,17 @@ fi
 
 open -na'Navicat Premium.app'
 
-osascript -e 'tell application "System Events" 
+while ! pgrep -x "Navicat Premium" > /dev/null; do
+    # echo "Waiting for Navicat to be opened"
+    sleep 0.5
+done
+
+# echo "Navicat has been opened"
+
+osascript -e 'tell application "System Events"
   tell process "Navicat Premium"
     set frontmost to true
-    delay 2.0
+    delay 0.5
     keystroke "w" using {command down}
   end tell
 end tell'
