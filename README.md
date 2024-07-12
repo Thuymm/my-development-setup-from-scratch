@@ -56,34 +56,36 @@ This project is about to save my development setup workspace and config files an
 
 2.  Non Development Setup
 
-    - [Alt-Tab](https://alt-tab-macos.netlify.app)
-    - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
-    - [Rectangle](https://rectangleapp.com)
-    - [Appcleaner](https://freemacsoft.net/appcleaner/)
-    - [Shottr](https://shottr.cc)
-    - [Maccy](https://github.com/p0deje/Maccy#usage)
-    - [Alfred](https://www.alfredapp.com) Extra Features - $29 powerpack
+    - [Lark](https://www.larksuite.com/en_sg)
     - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
-    - [Spotify](https://www.spotify.com/us/download/mac/) $9.99/month
-    - [VLC](https://www.videolan.org/vlc/download-macosx.html)
-    - [AirDroid](https://www.airdroid.com)
-    - [Telegram](https://telegram.org)
-    - [Twitter](https://apps.apple.com/us/app/twitter/id1482454543?mt=12)
-    - [Steam](https://steamcommunity.com)
+    - [Raycast](https://www.raycast.com/)
+    - [Alt-Tab](https://alt-tab-macos.netlify.app)
+    - [HiddenBar](https://github.com/dwarvesf/hidden)
+    - [Shottr](https://shottr.cc)
+    - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
+    - [Appcleaner](https://freemacsoft.net/appcleaner/)
+    - [The Unarchiver](https://theunarchiver.com)
     - [Zoom](https://zoom.us)
     - [TeamViewer](https://www.teamviewer.com/en-us/)
-    - [The Unarchiver](https://theunarchiver.com)
-    - [Krita](https://krita.org/en/)
+    - [Steam](https://steamcommunity.com)
+    - [Spotify](https://www.spotify.com/us/download/mac/)
+    - [Telegram](https://telegram.org)
+    - [VLC](https://www.videolan.org/vlc/download-macosx.html)
+    - [Twitter](https://apps.apple.com/us/app/twitter/id1482454543?mt=12)
+    - [Rectangle](https://rectangleapp.com) Optional
+    - [Maccy](https://github.com/p0deje/Maccy#usage) Optional
+    - [AirDroid](https://www.airdroid.com) Optional
 
 3.  Development Setup
 
-    - [Fork](https://git-fork.com) $49.99 or free evaluation
-    - [PhpStorm](https://www.jetbrains.com/phpstorm/) first year $89 second year $71 third year on wards $53 or $8.9/month
-    - [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate - first year $149 second year $119 third year on wards $89 or $14.9/month
-    - [IntelliJ IDEA](https://www.jetbrains.com/idea) Community - Free
+    - [Fork](https://git-fork.com)
+    - [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)
+    - [IntelliJ IDEA Community](https://www.jetbrains.com/idea)
     - [Android Studio](https://developer.android.com/studio)
     - [Xcode](https://developer.apple.com/xcode/)
     - [Navicat Premium 16](https://www.navicat.com/en/products/navicat-premium)
+    - [TablePlus](https://tableplus.com/)
+    - [Termius](https://termius.com/)
     - [iTerm2](https://iterm2.com)
     - [neovim](https://neovim.io/)
     - [ApiDog](https://apidog.com)
@@ -222,6 +224,17 @@ This is an example of how to list things you need to use the software and how to
   brew tap homebrew/cask-fonts
   brew install font-monaspace
   brew install --cask font-monaspace-nerd-font
+  ```
+
+- Optional Extra Installation for CLI tools
+
+  ```sh
+  brew install --cask herd
+  brew install --cask raycast
+  brew install --cask hiddenbar
+  brew install --cask shottr
+  brew install --cask alt-tab
+  brew install MonitorControl
   ```
 
 <!-- CONFIGURATION EXAMPLES -->
