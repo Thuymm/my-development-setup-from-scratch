@@ -26,7 +26,6 @@ echo "====================================="
 cd /var
 sudo mkdir repo && cd repo
 sudo mkdir $name.git
-sudo chown -R 'user':root $name.git
 cd $name.git
 sudo git init --bare
 
