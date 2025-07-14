@@ -66,6 +66,7 @@ This project is about to save my development setup workspace and config files an
     - [Appcleaner](https://freemacsoft.net/appcleaner/)
     - [The Unarchiver](https://theunarchiver.com)
     - [Zoom](https://zoom.us)
+    - [DockDoor](https://dockdoor.net/)
     - [TeamViewer](https://www.teamviewer.com/en-us/)
     - [Steam](https://steamcommunity.com)
     - [Spotify](https://www.spotify.com/us/download/mac/)
@@ -90,6 +91,7 @@ This project is about to save my development setup workspace and config files an
     - [neovim](https://neovim.io/)
     - [ApiDog](https://apidog.com)
     - [Arc](https://arc.net/)
+    - [Zen](https://zen-browser.app/)
     - [Chrome](https://www.google.com/chrome)
     - [Micorsoft Edge](https://www.microsoft.com/en-us/edge)
     - [Visual Studio Code](https://code.visualstudio.com)
@@ -173,6 +175,12 @@ This is an example of how to list things you need to use the software and how to
 
   _For more detail, [Github](https://github.com/ohmyzsh/ohmyzsh/) / [Website](https://ohmyz.sh)_
 
+- Install Powerlevel10k Theme
+
+  ```sh
+  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+  ```
+
 - Install zsh-syntax-highlighting
 
   ```sh
@@ -218,6 +226,13 @@ This is an example of how to list things you need to use the software and how to
   brew install --cask font-fira-code
   ```
 
+- Install JetBrains Mono Font
+
+  ```sh
+  brew tap homebrew/cask-fonts
+  brew install --cask font-jetbrains-mono
+  ```
+
 - Install Github Monospace Font
 
   ```sh
@@ -247,7 +262,8 @@ This is an example of how to list things you need to use the software and how to
 
     ```sh
     # OMZ plugin
-    plugins=(git osx zsh-syntax-highlighting)
+    ZSH_THEME="powerlevel10k/powerlevel10k"
+    plugins=(flutter git git-flow macos npm zsh-syntax-highlighting yii)
 
     # Misc
     alias zshconfig="vim ~/.zshrc"
@@ -263,13 +279,21 @@ This is an example of how to list things you need to use the software and how to
     # Path
     export PATH="/opt/homebrew/bin:$PATH" # M1/Apple Silicon
     # export PATH="$PATH:/usr/local/bin" # intel
+    export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+    export PATH="$PATH":"$HOME/.pub-cache/bin"
+    export GPG_TTY=$(tty)
 
     export PATH="$PATH":"$HOME/.pub-cache/bin"
 
     export PATH="$PATH:$HOME/.composer/vendor/bin"
 
+    # Android studio
+    alias studio='open -na '\''Android Studio.app'\'' --args '\'\'
     export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
     export PATH="$PATH:$ANDROID_HOME/platform-tools"
+
+    #idea launcher
+    alias idea='open -na '\''IntelliJ IDEA.app'\'' --args '\'\'
     ```
 
 2. Vim Config

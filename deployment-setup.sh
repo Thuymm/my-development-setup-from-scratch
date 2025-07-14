@@ -11,7 +11,7 @@ sudo mysql_secure_installation
 
 echo "start installing php and its lib"
 echo "====================================="
-sudo apt install php libapache2-mod-php php-mysql php-xml php-mbstring php-curl php-gd php-zip
+sudo apt install php libapache2-mod-php php-mysql php-pgsql php-xml php-mbstring php-curl php-gd php-zip
 sudo apt install unzip
 sudo systemctl restart apache2
 
