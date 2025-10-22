@@ -1,0 +1,16 @@
+font-size = 14
+font-thicken = true
+theme = "Github Dark Default"
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+background-opacity = 0.85
+background-blur = 20
+window-width = 90
+window-height = 25
+window-padding-x = 8
+window-padding-y = 8
+desktop-notifications = false
+copy-on-select = true
+macos-icon = glass
+scrollback-limit = 4294967295
