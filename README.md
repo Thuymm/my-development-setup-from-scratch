@@ -63,6 +63,7 @@ This project is about to save my development setup workspace and config files an
     - [HiddenBar](https://github.com/dwarvesf/hidden)
     - [Shottr](https://shottr.cc)
     - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
+    - [BetterDisplay](https://betterdisplay.pro/)
     - [Appcleaner](https://freemacsoft.net/appcleaner/)
     - [The Unarchiver](https://theunarchiver.com)
     - [Zoom](https://zoom.us)
